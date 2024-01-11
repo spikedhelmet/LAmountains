@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import "./App.css";
 import MobileContent from "./components/MobileContent";
-import DesktopContent from "./DesktopContent";
+import DesktopContent from "./components/DesktopContent";
 
 const App = () => {
   const [isMobile, setIsMobile] = useState(false);

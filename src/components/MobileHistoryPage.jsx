@@ -4,6 +4,8 @@ import SliderComponent from "./Slider";
 import "../App.css";
 
 const MobileHistoryPage = ({ openSection }) => {
+  const isMobile = true;
+
   return (
     <>
       {openSection === "history" ? (
@@ -24,7 +26,7 @@ const MobileHistoryPage = ({ openSection }) => {
             }
             content={history}
           />
-          <SliderComponent />
+          <SliderComponent isMobile={isMobile} />
         </section>
       ) : null}
     </>
