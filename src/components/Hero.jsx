@@ -2,7 +2,7 @@ import styles from "./Hero.module.css";
 
 function Hero({}) {
   return (
-    <div className={`${styles.hero_container} ${styles.mobile}`}>
+    <div className={styles.hero_container}>
       <img
         src="/assets/hero-bg.jpg"
         alt="Snowy Mountains"

@@ -1,9 +1,9 @@
 .slider_container {
   width: 100%;
-  min-height: 20%;
   background-color: rgba(65, 79, 107, 0.6);
   position: absolute;
   bottom: 0;
+  padding: 1rem 0;
 }
 
 .image {
