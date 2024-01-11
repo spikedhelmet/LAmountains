@@ -1,0 +1,16 @@
+.main_container {
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+}
+
+.tab_hidden {
+  display: none;
+}
+
+.tab_visible {
+  display: block;
+}
+
+@media (max-width: 768px) {
+}

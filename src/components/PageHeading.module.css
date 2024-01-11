@@ -1,0 +1,152 @@
+.heading_container {
+  margin: 0 auto;
+  width: 66.66%;
+  position: relative;
+}
+
+.heading_container_climb {
+  margin: 0 auto;
+  width: 66.66%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.number {
+  font-family: "Oswald", sans-serif;
+  font-size: 8.5rem;
+  color: rgba(65, 79, 107, 0.502);
+  font-weight: 900;
+}
+
+.heading_history {
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #414f6b;
+  position: absolute;
+  left: 8.3rem;
+  top: 6rem;
+}
+
+.heading_climb {
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #414f6b;
+  position: absolute;
+  left: 9.5rem;
+  top: 6rem;
+}
+
+.text {
+  /* transform: translateY(-50%); */
+  margin-left: 6rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+/* Media Queries */
+
+@media (max-width: 1100px) {
+  .text {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .number {
+    font-size: 6em;
+  }
+
+  .heading_history,
+  .heading_climb {
+    font-size: 1.5em;
+  }
+
+  .heading_history {
+    top: 4rem;
+    left: 5.9rem;
+  }
+
+  .heading_climb {
+    top: 4rem;
+    left: 6.6rem;
+  }
+
+  .text {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 600px) {
+  .number {
+    font-size: 4.5em;
+  }
+
+  .heading_history {
+    top: 2.5rem;
+    left: 4.4rem;
+  }
+
+  .heading_climb {
+    top: 2.6rem;
+    left: 4.95rem;
+  }
+
+  .text {
+    /* margin-left: 4.2rem; */
+    margin: 0.4rem 0 0.4rem 4.2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .number {
+    font-size: 3.5em;
+  }
+
+  .heading_history,
+  .heading_climb {
+    font-size: 1em;
+  }
+
+  .heading_history {
+    top: 2.2rem;
+    left: 3.45rem;
+  }
+
+  .heading_climb {
+    top: 3.9rem;
+    left: 3.8rem;
+  }
+
+  .text {
+    margin-left: 4.2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .number {
+    font-size: 2.5em;
+  }
+
+  .heading_history,
+  .heading_climb {
+    font-size: 0.8em;
+  }
+
+  .heading_history {
+    top: 1.5rem;
+    left: 2.45rem;
+  }
+
+  .heading_climb {
+    top: 3.4rem;
+    left: 2.7rem;
+  }
+
+  .text {
+    margin-left: 4.2rem;
+    font-size: 0.8em;
+  }
+}

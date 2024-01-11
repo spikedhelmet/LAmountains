@@ -1,0 +1,23 @@
+/* margins.css */
+@value small as bp-small from "./breakpoints.css";
+
+@value L: 20x;
+@value S: 5px;
+
+.large {
+  margin: L;
+}
+
+.small {
+  margin: S;
+}
+
+.adaptive {
+  margin: L;
+}
+
+@media (bp-small) {
+  .adaptive {
+    margin: S;
+  }
+}

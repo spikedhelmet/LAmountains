@@ -1,0 +1,46 @@
+.mountain {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: #b0b4be;
+  height: 100%;
+  padding: 0.4rem 1.6rem;
+
+  span {
+    font-family: "Oswald", sans-serif;
+    border-bottom: 1px solid #b0b4be;
+  }
+}
+
+.mountain:hover {
+  cursor: pointer;
+  color: #42506c;
+  background-color: #b0b4be;
+
+  span {
+    border-bottom: 1px solid #42506c;
+  }
+}
+
+.mountain.active {
+  color: #42506c;
+  background-color: #b0b4be;
+
+  span {
+    border-bottom: 1px solid #42506c;
+  }
+}
+
+@media (max-width: 700px) {
+  .mountain {
+    font-size: 1rem;
+    padding: 0.2rem 1.6rem;
+  }
+}
+
+@media (max-width: 505px) {
+  .mountain {
+    font-size: 0.8rem;
+    padding: 0.2rem 1.2rem;
+  }
+}
