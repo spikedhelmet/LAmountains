@@ -8,14 +8,13 @@
   align-items: center;
   z-index: 999;
   padding: 0.5rem;
-  /* height: 4rem; */
   box-shadow: 0px 1px 10px #999999a2;
 }
 
 .navbar_mobile {
   position: static;
-  padding: 0;
-  height: 5dvh;
+  padding: 0rem;
+  height: 2.5%;
 }
 
 .home {
@@ -91,9 +90,9 @@
 }
 
 @media (max-width: 700px) {
-  .navbar {
+  /* .navbar {
     padding: 0.2rem;
-  }
+  } */
 
   .logo {
     width: 2rem;
